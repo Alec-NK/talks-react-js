@@ -19,22 +19,6 @@ export function App() {
 
 	return (
 		<Row wrap style={{ padding: '20px', display: 'flex', flexDirection: 'row' }} gutter={[20, 20]}>
-			{/* <Col span={8}>
-				<CardExample
-					title={data.title}
-					description={data.description}
-					imageUrl={data.imageUrl}
-					imageAlt={data.imageAlt}
-					tags={data.tags}
-					date={data.date}
-					isEditable
-					isDeletable
-					isShareable
-					onEdit={handleOnEdit}
-					onDelete={handleOnDelete}
-					onShare={handleOnShare}
-				/>
-			</Col> */}
 			<Col>
 				<Card.Root>
 					<Card.Image src={data.imageUrl} alt={data.imageAlt} />
